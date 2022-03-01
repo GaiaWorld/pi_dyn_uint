@@ -1,8 +1,8 @@
-//! dyn_uint的基本用例
+//! pi_dyn_uint的基本用例
 
-extern crate dyn_uint;
+extern crate pi_dyn_uint;
 
-use dyn_uint::{SlabFactory, UintFactory, ClassFactory};
+use pi_dyn_uint::{SlabFactory, UintFactory, ClassFactory};
 
 struct A<T> {
     vec1: Vec<(T, usize)>,
